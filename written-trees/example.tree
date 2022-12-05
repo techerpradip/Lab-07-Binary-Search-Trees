@@ -1,0 +1,23 @@
+: This is a sample BST.
+
+ 2
+1 3
+
+# This line is a comment.
+
+: I can put slashes into my tree if I want; they don't do anything.
+
+  2
+ / \
+1   3
+
+: Each node decides its parent by the text that is closest to it.  For instance,
+: the 3 below is the left child of 4 (and not the right child of 1) because the
+: 4 is closer to the three.  The blank lines are ignored just like lines with
+: symbols are.
+
+  2
+
+1   4
+
+   3
